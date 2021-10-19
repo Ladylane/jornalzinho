@@ -1,0 +1,26 @@
+{
+  "name": "jornalzinho",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ladylane/jornalzinho.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Ladylane/jornalzinho/issues"
+  },
+  "homepage": "https://github.com/Ladylane/jornalzinho#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "sequelize": "^6.7.0",
+    "winston": "^3.3.3"
+  }
+}
