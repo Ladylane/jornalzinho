@@ -4,7 +4,7 @@ async function getRedes() {
   try {
     return await RedeModel.findAll();
   } catch (err) {
-    next(err);
+    throw err;
   }
 }
 
